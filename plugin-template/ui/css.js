@@ -66,6 +66,12 @@ module.exports = /*html*/`
     .bg-black{
         background: black;
     }
+    .bg-black26{
+        background: rgba(0, 0, 0, 0.05);
+    }
+    .bg-light-gray{
+        background: #f0f0f0;
+    }
     .bg-gray{
         background: #e8e8e8;
     }
@@ -77,6 +83,10 @@ module.exports = /*html*/`
     }
     .text-black{
         color: black;
+    }
+    .text-sm{
+        font-size: 0.65rem;
+        line-height: 1.5;
     }
     .text-md{
         font-size: 0.85rem;
@@ -94,9 +104,19 @@ module.exports = /*html*/`
     .flex{
         display: flex;
     }
-    .center-center{
+    .inline-flex{
+        display: inline-flex;
+    }
+    .center-center,
+    .items-center{
         align-items: center;
+    }
+    .center-center,
+    .justify-center{
         justify-content: center;
+    }
+    .flex-1{
+        flex: 1;
     }
     .relative{
         position: relative;
@@ -188,8 +208,39 @@ module.exports = /*html*/`
     .mb-3{
         margin-bottom: 0.75rem;
     }
+    .ml-1{
+        margin-left: 0.25rem;
+    }
+    .ml-2{
+        margin-left: 0.5rem;
+    }
+    .ml-3{
+        margin-left: 0.75rem;
+    }
+    .mr-1{
+        margin-right: 0.25rem;
+    }
+    .mr-2{
+        margin-right: 0.5rem;
+    }
+    .mr-3{
+        margin-right: 0.75rem;
+    }
     .opacity-65{
         opacity: 0.65;
+    }
+    .border,
+    .border-2{
+        border: 1px solid #ddd;
+    }
+    .border-2{
+        border-width: 2px;
+    }
+    .border-black{
+        border-color: black;
+    }
+    .rounded-full{
+        border-radius: 50%;
     }
     .rounded{
         border-radius: 12px;
