@@ -1,6 +1,7 @@
 # Color Utils
 
 ## Video
+- [Adobe XD Plugin Development: Color Blend Plugin](https://youtu.be/rC4Pql1V5GA)
 
 ## Highlights
 
