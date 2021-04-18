@@ -1,7 +1,7 @@
 # Palette Generator
 
 ## Video
-- (Adobe XD Plugin Development: Color Palette Plugin)(https://www.youtube.com/watch?v=HvwmwoXguwQ)
+- [Adobe XD Plugin Development: Color Palette Plugin](https://www.youtube.com/watch?v=HvwmwoXguwQ)
 
 ## Highlights
 
